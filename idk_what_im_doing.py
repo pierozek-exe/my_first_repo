@@ -36,6 +36,7 @@ print("Guess the number!")
 sekret = random.randint(1, 100)
 proba = 0
 
+#Guessing game loop
 while True:
     proba += 1
     guess = input("Number from 1 to 100: ")
